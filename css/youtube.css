@@ -1,0 +1,103 @@
+/* It's dangerous to go any deeper! */
+@font-face {
+	font-family: 'Sorts Mill Goudy';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Sorts Mill Goudy Regular'), local('SortsMillGoudy-Regular'), url(https://fonts.gstatic.com/s/sortsmillgoudy/v6/JzRrPKdwEnE8F1TDmDLMUuN9vRcsMjgFHd22vmwSFwo.woff2) format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+	font-family: 'Sorts Mill Goudy';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Sorts Mill Goudy Regular'), local('SortsMillGoudy-Regular'), url(https://fonts.gstatic.com/s/sortsmillgoudy/v6/JzRrPKdwEnE8F1TDmDLMUnYo8BdpTXVx3FU5x_HE_XU.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+html {
+  background-color: #1a1a1a;
+  color: #676767;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  height: 100%;
+}
+
+a {
+  color: #551a8b;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+a:hover {
+  color: #9d0000;
+}
+
+#twitch iframe{
+  position: fixed;
+  height: 100%;
+  width: 30%;
+  top: 0px;
+  right: 0px;
+  float: left;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow:hidden;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  top: 0;
+  left: 0;
+}
+
+#text {
+  position: absolute;
+  width: 70%;
+  margin-top: -16.5%;
+  text-align: center;
+}
+
+.hr {
+  display: block;
+  margin: 10px 0;
+  height: 1px;
+  width: 600px;
+  background-color: #551a8b;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#twitchstatus {
+	margin-bottom: 10px;
+}
+
+#text img {
+	border: 1px solid #551a8b;
+}
+
+#footer {
+  font-size: 0.6em;
+  margin-top: 10px;
+}
+
+#footer a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 840px) {
+  /* CSS Rules used when query matches */
+  .hr {
+  width: 80%;
+  }
+}
