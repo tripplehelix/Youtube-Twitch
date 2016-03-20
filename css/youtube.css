@@ -82,8 +82,10 @@ a:hover {
 	margin-bottom: 10px;
 }
 
-#text img {
+#text iframe { /* Styles the Twitch Status */
 	border: 1px solid #551a8b;
+	height:64px;
+	width: 300px;
 }
 
 #footer {
